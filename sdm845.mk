@@ -16,6 +16,12 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := true
 
+# Common AviumUI
+AVIUM_VERSION_APPEND_TIME_OF_DAY := false
+AVIUM_SETTINGS_SOC_MODEL_NAME := Qualcomm Snapdragon 845
+WITH_GMS := true
+TARGET_USES_GSANS := false
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
