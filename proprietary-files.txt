@@ -170,7 +170,7 @@ vendor/lib64/libsdm-color.so|29cbc16f6fa573d21f48e2be2ff0d51de3357378
 vendor/lib64/libsdm-colormgr-algo.so|1fb7f3cb11557bbf677afb5d6eda0e4e9fd3ac58
 vendor/lib64/libsdm-diag.so|f532f28a93bb8568652579ea97267d3053ad9cfe
 vendor/lib64/libsdm-disp-vndapis.so|fd0b0beac164c92bfa012dbc059cb50cdde2dec6
-vendor/lib64/libsdmextension.so|99377ab065105f0cbd17bbe5907cdbb8027a9f17
+vendor/lib64/libsdmextension.so;DISABLE_CHECKELF|99377ab065105f0cbd17bbe5907cdbb8027a9f17
 vendor/lib64/libtinyxml2_1.so|fb0a2b16e5cfd28515268edc5c2345190d1ef4e5
 
 # Display postprocessing - from munch OS1.0.9.0.ULMMIXM
