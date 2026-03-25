@@ -111,7 +111,9 @@ else
     BOARD_SUPER_PARTITION_VENDOR_DEVICE_SIZE := 1073741824
 endif
 
+ifneq ($(WITH_GMS),true)
 include vendor/lineage/config/BoardConfigReservedSize.mk
+endif
 
 BOARD_USES_METADATA_PARTITION := true
 TARGET_USERIMAGES_USE_EXT4 := true
