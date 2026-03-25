@@ -66,3 +66,17 @@ sh_binary {
     src: "init.qti.dcvs.sh",
     soc_specific: true,
 }
+
+prebuilt_etc {
+    name: "fstab.qcom",
+    src: "fstab.qcom",
+    soc_specific: true,
+    ramdisk_available: true,
+}
+
+prebuilt_etc {
+    name: "fstab_super.qcom",
+    src: "fstab_super.qcom",
+    soc_specific: true,
+    ramdisk_available: true,
+}

@@ -168,6 +168,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Fstab
+ifeq ($(BOARD_USE_PHYSICAL_SUPER_PARTITION),true)
+    PRODUCT_PACKAGES += \
+        fstab_super.qcom \
+        fstab_super.qcom.ramdisk
+else
+    PRODUCT_PACKAGES += \
+        fstab.qcom \
+        fstab.qcom.ramdisk
+endif
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
